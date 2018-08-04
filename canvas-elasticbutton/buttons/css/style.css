@@ -1,0 +1,68 @@
+body {
+    background-image: radial-gradient(50% 100%, #FAFAFA 5%, #20293A 100%);
+    margin: 0;
+}
+
+header {
+    width: 1080px;
+    height: 106px;
+}
+
+.container {
+    width: 1080px;
+    height: 780px;
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 240px 240px;
+    grid-gap: 20px;
+}
+
+#canvas {
+    width: 255px;
+    height: 680px;
+    /* background-color: rgb(243, 243, 243); */
+    /* box-shadow: 0px 0px 8px 0 #1b1b1b; */
+    grid-column: 1;
+    grid-row: 1/span 3;
+  }
+#canvas2 {
+    width: 220px;
+    height: 240px;
+/* background-color: rgb(243, 243, 243);
+box-shadow: 0px 0px 8px 0 #1b1b1b; */
+}
+#canvas3 {
+    width: 220px;
+    height: 240px;
+/* background-color: rgb(243, 243, 243);
+box-shadow: 0px 0px 8px 0 #1b1b1b; */
+}
+#canvas4 {
+    width: 220px;
+    height: 240px;
+/* background-color: rgb(243, 243, 243);
+box-shadow: 0px 0px 8px 0 #1b1b1b; */
+}
+#canvas5 {
+    width: 220px;
+    height: 240px;
+/* background-color: rgb(243, 243, 243);
+box-shadow: 0px 0px 8px 0 #1b1b1b; */
+}
+#canvas6 {
+    width: 220px;
+    height: 240px;
+/* background-color: rgb(243, 243, 243);
+box-shadow: 0px 0px 8px 0 #1b1b1b; */
+}
+#canvas7 {
+    width: 220px;
+    height: 240px;
+/* background-color: rgb(243, 243, 243);
+box-shadow: 0px 0px 8px 0 #1b1b1b; */
+}
+
+
+
