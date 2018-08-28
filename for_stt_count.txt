@@ -1,0 +1,10 @@
+if (interimTranscript.length === 0) {
+            console.log("sound not detected! count down 3");
+            setTimeout(function() {
+                if (interimTranscript.length === 0) {
+                    console.log("BYE!");
+                    recognition.stop();
+                }
+            }, 3000);
+        }
+}
